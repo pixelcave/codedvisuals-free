@@ -1,0 +1,66 @@
+CodedVisuals Free License
+
+Copyright (c) pixelcave (https://codedvisuals.com)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+the Covered Files (defined below) to use, copy, modify, and merge them, and to
+distribute them as part of a larger work, in personal and commercial projects,
+subject to the following conditions.
+
+1. Covered Files
+
+   This license covers 5 files in this repository, and nothing else:
+
+     src/components/codedvisuals/browser/simple.tsx
+     src/components/codedvisuals/charts/sparkline.tsx
+     src/components/codedvisuals/files/stacked.tsx
+     src/components/codedvisuals/integrations/logo-orbit.tsx
+     src/components/codedvisuals/notifications/bell.tsx
+
+   Every other file in this repository is outside this license. See section 4.
+
+2. Restriction
+
+   You may not sell, sublicense, or redistribute the Covered Files, in original
+   or modified form, as a visual, component, template, icon, or UI library of
+   your own, or as part of any product whose primary value is the Covered Files
+   themselves. Using them inside your own site, app, or product is exactly what
+   they are for; repackaging them for others to obtain as components is not.
+
+3. Notice
+
+   This notice shall be included in all copies or substantial portions of the
+   Covered Files that are distributed on their own or as part of a component
+   collection. You do not need to reproduce it in a compiled site or
+   application that merely uses them.
+
+4. Not covered
+
+   The demo site in this repository is not covered. Its design, layout, copy,
+   and supporting source, including everything under src/ other than the 5
+   Covered Files, are published so you can run the previews and read how the
+   visuals are used. All rights to it are reserved. You may not copy, reuse, or
+   adapt the demo site or its design for your own site or product.
+
+   The rest of the CodedVisuals library is a commercial product and is not
+   covered by this license. It requires a license from
+   https://codedvisuals.com/pricing.
+
+   The skill documentation under .agents/skills/codedvisuals/ and
+   .claude/skills/codedvisuals/ describes the commercial library. It may be
+   read, copied, and kept in a project so that coding agents can use it, but it
+   does not grant any right to the visuals it documents.
+
+   Third-party files vendored into this repository remain under the licenses
+   of their original authors.
+
+   The CodedVisuals and pixelcave names, logos, and wordmarks are trademarks of
+   their owner and are not licensed for use as your own branding.
+
+THE COVERED FILES ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE COVERED FILES OR THE USE OR OTHER DEALINGS IN
+THE COVERED FILES.

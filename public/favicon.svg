@@ -1,0 +1,22 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cv-cube" gradientUnits="userSpaceOnUse" x1="1" y1="1" x2="47" y2="47">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <g stroke="url(#cv-cube)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.25">
+    <path d="M24 1 L24 24"/>
+    <path d="M24 24 L1 35.5"/>
+    <path d="M24 24 L47 35.5"/>
+  </g>
+  <path d="M24 1 L47 12.5 L24 24 L1 12.5 Z" fill="url(#cv-cube)" fill-opacity="0.75"/>
+  <path d="M24 24 L47 12.5 L47 35.5 L24 47 Z" fill="url(#cv-cube)" fill-opacity="0.45"/>
+  <g stroke="url(#cv-cube)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M24 1 L47 12.5 L24 24 L1 12.5 Z"/>
+    <path d="M1 12.5 L1 35.5"/>
+    <path d="M47 12.5 L47 35.5"/>
+    <path d="M24 24 L24 47"/>
+    <path d="M1 35.5 L24 47 L47 35.5"/>
+  </g>
+</svg>
