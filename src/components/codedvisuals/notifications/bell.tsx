@@ -255,7 +255,7 @@ export default function Bell({
           {/* Count badge */}
           {count > 0 && (
             <motion.div
-              className="absolute -top-2 -right-2 flex h-6 min-w-6 items-center justify-center rounded-full bg-primary px-1.5 text-xs font-semibold text-white shadow-md ring-2 ring-background"
+              className="absolute -top-2 -right-2 flex h-6 min-w-6 items-center justify-center rounded-full bg-primary px-1.5 text-xs font-semibold text-primary-foreground shadow-md ring-2 ring-background"
               variants={animated ? badgeVariants : undefined}
               {...motionProps}
             >
