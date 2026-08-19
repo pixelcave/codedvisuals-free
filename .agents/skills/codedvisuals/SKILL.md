@@ -259,6 +259,12 @@ Pick by category. Each entry is `registry-name` (**Name**): description, plus th
 - `@codedvisuals/geo-globe` (**Globe**): A rotating globe of dotted continents with location markers and connection arcs that draw in. Details: `visuals/geo/globe.md`.
 - `@codedvisuals/geo-pin-drop` (**Pin Drop**): Location pins dropping onto an abstract radar field with concentric ripple pings. Details: `visuals/geo/pin-drop.md`.
 
+### Git
+
+- `@codedvisuals/git-branch-graph` (**Branch Graph**): A commit rail where feature branches fork off, run their own commits, and merge back, with pulses traveling every path. Details: `visuals/git/branch-graph.md`.
+- `@codedvisuals/git-diff` (**Diff**): A file diff with added and removed lines, in unified or side by side view, swept line by line as the change counters climb. Details: `visuals/git/diff.md`.
+- `@codedvisuals/git-pull-request` (**Pull Request**): A pull request card whose CI checks run one by one, then settle into an approval and a merge button that lights up. Details: `visuals/git/pull-request.md`.
+
 ### Images
 
 - `@codedvisuals/images-carousel` (**Carousel**): An image carousel with slides and navigation controls. Details: `visuals/images/carousel.md`.
