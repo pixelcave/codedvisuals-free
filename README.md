@@ -97,7 +97,7 @@ The CLI writes the file into `src/components/codedvisuals/` and installs Motion 
 
 ## The full library
 
-The 5 visuals in this repo are free. They are a sample of CodedVisuals, a paid library of 100+ coded visuals and 950+ variations across 30+ categories, every one built exactly like these 5: charts, AI, sections, connections, dashboards, chat, code editors, integrations, and more. It is a one-time purchase, and new visuals land all the time.
+The 5 visuals in this repo are free. They are a sample of CodedVisuals, a paid library of 100+ coded visuals and 1,000+ variations across 30+ categories, every one built exactly like these 5: charts, AI, sections, connections, dashboards, chat, code editors, integrations, and more. It is a one-time purchase, and new visuals land all the time.
 
 - 👉 Browse them all at [codedvisuals.com](https://codedvisuals.com/visuals)
 - 👉 Grab a license at [codedvisuals.com/pricing](https://codedvisuals.com/pricing)

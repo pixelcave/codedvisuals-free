@@ -682,7 +682,7 @@ export function App() {
               classic
               badge="One-time purchase"
               title="Get access to the full library."
-              description="You have seen what a single file can do, 5 times over. CodedVisuals already has 100+ visuals and 950+ variations across 30+ categories, every one built exactly like these. New ones land all the time, and they are yours as they ship."
+              description="You have seen what a single file can do, 5 times over. CodedVisuals already has 100+ visuals and 1,000+ variations across 30+ categories, every one built exactly like these. New ones land all the time, and they are yours as they ship."
             />
             <div className="mt-7 flex justify-center">
               <Button

@@ -205,6 +205,9 @@ Pick by category. Each entry is `registry-name` (**Name**): description, plus th
 
 - `@codedvisuals/charts-bar` (**Bar**): An animated bar chart with a value, trend badge, and grid. Details: `visuals/charts/bar.md`.
 - `@codedvisuals/charts-donut` (**Donut**): An animated donut chart with a center total and legend. Details: `visuals/charts/donut.md`.
+- `@codedvisuals/charts-funnel` (**Funnel**): A conversion funnel of tapering stage slabs that pour in one by one, with per stage counts and conversion rates. Details: `visuals/charts/funnel.md`.
+- `@codedvisuals/charts-gauge` (**Gauge**): A semicircular gauge whose arc sweeps to its value, with an optional zoned track, a center reading, and range labels. Details: `visuals/charts/gauge.md`.
+- `@codedvisuals/charts-heatmap` (**Heatmap**): A grid heatmap of labeled rows and columns whose cells light up in a diagonal sweep, with an intensity legend. Details: `visuals/charts/heatmap.md`.
 - `@codedvisuals/charts-line` (**Line**): An animated line chart with a value, trend badge, and gradient fill. Details: `visuals/charts/line.md`.
 - `@codedvisuals/charts-sparkline` (**Sparkline**): A compact inline sparkline for tight spaces and stat cards. Details: `visuals/charts/sparkline.md`.
 
