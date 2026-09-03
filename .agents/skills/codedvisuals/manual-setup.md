@@ -5,7 +5,7 @@ description: Prepare a React + Tailwind CSS v4 + TypeScript project (without sha
 
 # CodedVisuals manual setup
 
-CodedVisuals compositions are self-contained React components that expect four things from the host project: the `clsx` + `tailwind-merge` utilities, a `cn()` helper at `@/lib/utils`, the shadcn/ui design-token CSS variables, and an `@` import alias pointing at the source root. On a shadcn/ui project these already exist. On a plain React + Tailwind CSS v4 + TypeScript project, set them up with the steps below, then the user can copy any composition file and it will work unchanged.
+CodedVisuals compositions are self-contained React components that expect four things from the host project: the `cn` class-merging utility, a `cn()` helper at `@/lib/utils`, the shadcn/ui design-token CSS variables, and an `@` import alias pointing at the source root. On a shadcn/ui project these already exist. On a plain React + Tailwind CSS v4 + TypeScript project, set them up with the steps below, then the user can copy any composition file and it will work unchanged.
 
 This skill assumes the host project already uses React, Tailwind CSS v4, and TypeScript. It only adds the shadcn/ui pieces above, it does not install or configure React, Tailwind CSS v4, or TypeScript. The Step 3 token mapping uses Tailwind v4 syntax (`@theme inline`, `@custom-variant`); if the project is on Tailwind v3 or is JavaScript-only, stop and tell the user before making changes.
 
@@ -13,10 +13,10 @@ Work through the steps in order. Detect what already exists before changing anyt
 
 ## Step 1: Install dependencies
 
-Install Motion (animations), lucide-react (icons), and the class utilities:
+Install Motion (animations), lucide-react (icons), and `cn` (class merging):
 
 ```bash
-npm install motion lucide-react tailwind-merge clsx
+npm install motion lucide-react cn
 ```
 
 Compositions import their icons from `lucide-react`. If the project already uses a different icon library (for example Radix Icons via `"iconLibrary": "radix"` in `components.json`), lucide-react will not be present, so still install it. It can live alongside the existing icon set.
@@ -28,13 +28,10 @@ Use the project's package manager if it is not npm (`pnpm add`, `yarn add`, `bun
 Compositions import `cn` from `@/lib/utils`. Create `lib/utils.ts` at the source root's `lib/` folder.
 
 ```ts
-import { clsx, type ClassValue } from "clsx";
-import { twMerge } from "tailwind-merge";
-
-export function cn(...inputs: ClassValue[]) {
-  return twMerge(clsx(inputs));
-}
+export { cn } from "cn";
 ```
+
+If `lib/utils.ts` already exports a `cn()` built on `clsx` + `tailwind-merge`, leave it alone and skip this step. Compositions only import `cn` from `@/lib/utils`, so either implementation works.
 
 ## Step 3: Add the shadcn/ui design tokens
 

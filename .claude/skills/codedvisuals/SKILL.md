@@ -70,7 +70,7 @@ Licensed members can copy a visual's source or download its file from its previe
 
 ### Projects without shadcn/ui
 
-Visuals expect four things from the host project: the `clsx` + `tailwind-merge` utilities, a `cn()` helper at `@/lib/utils`, the shadcn/ui design-token CSS variables, and an `@` import alias pointing at the source root. A shadcn/ui project already has these. For a plain React + Tailwind CSS v4 project, follow `manual-setup.md` in this skill, then copied files work unchanged.
+Visuals expect four things from the host project: the `cn` class-merging utility, a `cn()` helper at `@/lib/utils`, the shadcn/ui design-token CSS variables, and an `@` import alias pointing at the source root. A shadcn/ui project already has these. For a plain React + Tailwind CSS v4 project, follow `manual-setup.md` in this skill, then copied files work unchanged.
 
 ## Use it on a page
 
