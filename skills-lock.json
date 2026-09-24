@@ -5,7 +5,7 @@
       "source": "pixelcave/skills",
       "sourceType": "github",
       "skillPath": "skills/codedvisuals/SKILL.md",
-      "computedHash": "0a214a7a967dcedf86b8df5b14881c085692429fdacd4110040595cc621e70ab"
+      "computedHash": "2dc2e647cecc6609f0d0bba089b23d21e1b8da9b60b54b5579494904dcfd577e"
     },
     "shadcn": {
       "source": "shadcn/ui",

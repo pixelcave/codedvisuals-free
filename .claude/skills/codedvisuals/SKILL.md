@@ -232,6 +232,9 @@ Pick by category. Each entry is `registry-name` (**Name**): description, plus th
 
 ### Data
 
+- `@codedvisuals/data-filters` (**Filters**): A filter builder where each rule lands in turn and narrows a running result count and progress bar. Details: `visuals/data/filters.md`.
+- `@codedvisuals/data-import` (**Import**): A CSV import mapper where each source column connects across to its destination field, leaving unmapped columns skipped. Details: `visuals/data/import.md`.
+- `@codedvisuals/data-query` (**Query**): A visual query builder that assembles its conditions, sweeps as it runs, then streams the matching rows with a timing readout. Details: `visuals/data/query.md`.
 - `@codedvisuals/data-table` (**Table**): A data table with sortable columns, rows, and status pills. Details: `visuals/data/table.md`.
 
 ### Dashboard
@@ -261,6 +264,7 @@ Pick by category. Each entry is `registry-name` (**Name**): description, plus th
 
 - `@codedvisuals/geo-globe` (**Globe**): A rotating globe of dotted continents with location markers and connection arcs that draw in. Details: `visuals/geo/globe.md`.
 - `@codedvisuals/geo-pin-drop` (**Pin Drop**): Location pins dropping onto an abstract radar field with concentric ripple pings. Details: `visuals/geo/pin-drop.md`.
+- `@codedvisuals/geo-world-map` (**World Map**): A dotted world map that blooms outward from a chosen city, with pinging location markers, tinted coverage regions, and connection arcs that draw between cities. Details: `visuals/geo/world-map.md`.
 
 ### Git
 
@@ -277,6 +281,9 @@ Pick by category. Each entry is `registry-name` (**Name**): description, plus th
 
 - `@codedvisuals/integrations-hub` (**Hub**): A central app connected to surrounding integration logos. Details: `visuals/integrations/hub.md`.
 - `@codedvisuals/integrations-logo-orbit` (**Logo Orbit**): Integration logos orbiting a central brand mark. Details: `visuals/integrations/logo-orbit.md`.
+- `@codedvisuals/integrations-logo-marquee` (**Logo Marquee**): Rows of integration logos scrolling in alternating directions, fading out at both edges. Details: `visuals/integrations/logo-marquee.md`.
+- `@codedvisuals/integrations-logo-reel` (**Logo Reel**): A row of integration logos sliding one by one into a center spotlight, blurring out as they pass. Details: `visuals/integrations/logo-reel.md`.
+- `@codedvisuals/integrations-plugin-slot` (**Plugin Slot**): An isometric board of integration cubes where new logos drop into open slots and connect. Details: `visuals/integrations/plugin-slot.md`.
 
 ### Keyboard
 
@@ -315,6 +322,7 @@ Pick by category. Each entry is `registry-name` (**Name**): description, plus th
 ### Sections
 
 - `@codedvisuals/sections-auth` (**Auth**): A login section with social buttons, fields, and a sign-in button. Details: `visuals/sections/auth.md`.
+- `@codedvisuals/sections-backgrounds` (**Backgrounds**): A section preview that cycles through background styles (mesh, grid, dots, rays) with a picker to switch between them. Details: `visuals/sections/backgrounds.md`.
 - `@codedvisuals/sections-bento` (**Bento**): A bento grid section with a featured tile and mixed-size cards. Details: `visuals/sections/bento.md`.
 - `@codedvisuals/sections-blog` (**Blog**): A blog index section with article cards and metadata. Details: `visuals/sections/blog.md`.
 - `@codedvisuals/sections-blog-post` (**Blog Post**): A blog post layout with title, meta, and content. Details: `visuals/sections/blog-post.md`.
@@ -353,6 +361,7 @@ Pick by category. Each entry is `registry-name` (**Name**): description, plus th
 ### Status
 
 - `@codedvisuals/status-health-check` (**Health Check**): A service health check with status indicators. Details: `visuals/status/health-check.md`.
+- `@codedvisuals/status-resource-monitor` (**Resource Monitor**): A live resource monitor streaming CPU and memory usage across a gridded plot, with a legend showing the current reading for each series. Details: `visuals/status/resource-monitor.md`.
 - `@codedvisuals/status-uptime-bar` (**Uptime Bar**): An uptime bar showing daily operational status. Details: `visuals/status/uptime-bar.md`.
 
 ### Tasks
