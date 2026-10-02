@@ -172,12 +172,17 @@ Pick by category. Each entry is `registry-name` (**Name**): description, plus th
 - `@codedvisuals/ai-retrieval` (**Retrieval**): A query fanning out to ranked source cards that light up as each pulse lands, then converging into a streamed answer, over an ambient glow and particle field. Details: `visuals/ai/retrieval.md`.
 - `@codedvisuals/ai-tools` (**Tools**): An agent working through its tool calls one at a time, each row running with a spinner then settling into a result and a duration. Details: `visuals/ai/tools.md`.
 - `@codedvisuals/ai-voice` (**Voice**): A realtime voice assistant orb that cycles through listening, thinking, and speaking states, with pulsing rings, a live equalizer, a status pill, and a transcript, over an ambient glow and particle field. Details: `visuals/ai/voice.md`.
+- `@codedvisuals/ai-writer` (**Writer**): A document where an AI rewrites a selection, autocompletes ghost text, or answers a slash command inline behind a labeled AI caret, over an ambient glow and particle field. Details: `visuals/ai/writer.md`.
 
 ### API
 
 - `@codedvisuals/api-logs` (**Logs**): Service nodes streaming into a log console along connected paths, with severity-colored level chips and rows that tail in. Details: `visuals/api/logs.md`.
 - `@codedvisuals/api-request` (**Request**): A request arcing from client to server and a response arcing back, with a method pill, a status code, and a JSON response card. Details: `visuals/api/request.md`.
 - `@codedvisuals/api-webhook` (**Webhook**): A webhook event fanning retry arcs at your endpoint, where failed attempts fall short and the successful one delivers. Details: `visuals/api/webhook.md`.
+
+### Automations
+
+- `@codedvisuals/automations-workflow-builder` (**Workflow Builder**): A workflow where a trigger runs into a condition that branches to one of two actions, with a run pulse lighting the path taken. Details: `visuals/automations/workflow-builder.md`.
 
 ### Avatars
 

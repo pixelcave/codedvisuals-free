@@ -5,13 +5,13 @@
       "source": "pixelcave/skills",
       "sourceType": "github",
       "skillPath": "skills/codedvisuals/SKILL.md",
-      "computedHash": "2dc2e647cecc6609f0d0bba089b23d21e1b8da9b60b54b5579494904dcfd577e"
+      "computedHash": "81623efc881adaabf88d3abcdcbd9eccaff51c1b54db8c908637fea66f96ee35"
     },
     "shadcn": {
       "source": "shadcn/ui",
       "sourceType": "github",
       "skillPath": "skills/shadcn/SKILL.md",
-      "computedHash": "9b5a0bc8d34287ac67d8e59a84ce3beb0cc29d2bfc50159804600d79cfc2a549"
+      "computedHash": "d04e43ec01e921558b93bb8046c14a42a22556689a2827243df900825a4e1604"
     }
   }
 }
